@@ -106,3 +106,78 @@
 """
 
 # For loop
+"""
+list = [1,2,3,4,5]
+
+for items in list:
+    if items == 3:
+        print("3 found")
+        break;
+    print(items)
+else:
+    print("Loop Ended")
+    
+
+
+import json;
+
+devs = [
+    {
+        "id":"1",
+        "name": "John Doe",
+        "age": 30,
+        "city": "New York"
+    },{
+        "id":"2",
+        "name": "Jane Doe",
+        "age": 28,
+        "city": "Los Angeles"
+    },{
+        "id":"3",
+        "name": "Alice Doe",
+        "age": 32,
+        "city": "Chicago"  
+    },{
+        "id":"4",
+        "name": "Bob Doe",
+        "age": 29,
+        "city": "San Francisco"
+    },{
+        "id":"5",
+        "name": "Charlie Doe",
+        "age": 31,
+        "city": "New York"
+    }
+]
+
+for dev in devs:
+        print(json.dumps(dev, indent=4))
+        
+        
+"""
+
+# range
+"""
+for i in range(11):
+    print(f"{i} : End Range Only")
+
+print("Loop Ended")
+
+for i in range(1, 11):
+    print(f"{i} : Start & End Range")
+
+print("Loop Ended")
+
+for i in range(1, 11, 2):
+    print(f"{i} : Start , End & increase  Range")
+
+print("Loop Ended")
+"""
+
+# pass Statement
+"""
+for i in range(10):
+    pass
+
+print("Work later")
+"""
